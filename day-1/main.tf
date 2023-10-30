@@ -8,5 +8,5 @@ resource "aws_instance" "saple_instance" {
   instance_type           = "t2.micro"
   subnet_id               = "subnet-085cfc56c1ce276ac" 
   key_name                = "linuxkp" 
-  tenancy                 = "default" 
+   
 }
