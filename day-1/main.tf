@@ -4,7 +4,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "saple_instance" {
-  ami                     = "ami-0dcc1e21636832c5d"
+  ami                     = "ami-032346ab877c418af"
   instance_type           = "t2.micro"
   
 }
