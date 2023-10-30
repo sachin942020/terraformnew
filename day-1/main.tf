@@ -4,7 +4,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "saple_instance" {
-  ami                     = "ami-032346ab877c418af"
+  ami                     = "ami-0fc5d935ebf8bc3bc"
   instance_type           = "t2.micro"
   subnet_id               = "subnet-085cfc56c1ce276ac" 
   key_name                = "linuxkp" 
