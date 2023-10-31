@@ -20,8 +20,8 @@ resource "aws_instance" "create_instance_east" {
 
 resource "aws_instance" "create_instance_west" {
 
-  ami                     = "ami-005f8adf84f8c5057"
+  ami                     = "ami-01bc990364452ab3e"
   instance_type           = "t2.micro"   
-  key_name                = "winkp"
+  key_name                = "linuxkp"
   provider                = "aws.us-west-2"
 }
