@@ -15,7 +15,7 @@ resource "aws_instance" "create_instance_east" {
   instance_type           = "t2.micro"
   subnet_id               = "subnet-085cfc56c1ce276ac" 
   key_name                = "linuxkp" 
-  provider                = "aws.us-east-1"
+  provider                = aws.us-east-1
 }
 
 resource "aws_instance" "create_instance_west" {
@@ -23,5 +23,5 @@ resource "aws_instance" "create_instance_west" {
   ami                     = "ami-01bc990364452ab3e"
   instance_type           = "t2.micro"   
   key_name                = "linuxkp"
-  provider                = "aws.us-west-2"
+  provider                = aws.us-west-2
 }
