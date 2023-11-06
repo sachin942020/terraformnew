@@ -7,3 +7,9 @@ resource "aws_instance" "sachin" {
     ami = "ami-0fc5d935ebf8bc3bc"
   
 }
+
+resource "aws_s3_bucket" "s3_bucket" {
+
+    bucket = "mybucket-sachin"
+      
+}
